@@ -1,0 +1,60 @@
+* {
+	/* View all elements */
+	/* outline: 1px solid red; */
+}
+
+@font-face {
+	font-family: scramble storm;
+	src: url(font/scrambleStorm.otf);
+}
+
+:root {
+	/* Colours */
+	--primary: #545e75;
+	--secondary: #b7d0fc;
+	--tertiary: #939fba;
+	--white: #ece8ef;
+	--standout: #dc493a;
+}
+
+body {
+	/* Set the background image */
+	background-image: url("img/background2.jpg");
+
+	/* Set background repeat to repeat both horizontally and vertically */
+	background-repeat: no-repeat;
+
+	/* Stop any overscroll */
+	overflow: hidden;
+
+	/* Set background size, position, margin */
+	width: auto;
+	height: 100vh;
+	margin: 20px 10px 10px 10px;
+	background-size: cover;
+	background-position: center;
+	background-color: rgb(96, 96, 96);
+}
+
+section {
+	height: 100px;
+	text-align: center;
+}
+
+.header {
+	height: 400px;
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	font-family: Scramble Storm;
+	font-size: 120px;
+	font-weight: normal;
+	margin: 0;
+	rotate: -20deg;
+}
+
+.title.sub {
+	font-size: 35px;
+}
