@@ -49,10 +49,10 @@ section {
 .title {
 	text-align: center;
 	font-family: Scramble Storm;
-	font-size: 120px;
-	font-weight: normal;
+	font-size: 150px;
+	font-weight: 100;
 	margin: 0;
-	rotate: -20deg;
+	/* rotate: -20deg; */
 }
 
 .title.sub {
